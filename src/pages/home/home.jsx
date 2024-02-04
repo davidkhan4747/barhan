@@ -3,6 +3,7 @@ import './home.css'
 import Banner from '../../components/banner/banner'
 import HomeSlider from '../../components/home-slider/home-slider'
 const Home = () => {
+  
   return (
     <>
     <Banner/>
