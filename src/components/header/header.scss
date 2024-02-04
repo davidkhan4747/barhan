@@ -1,0 +1,46 @@
+// main colors
+
+$bgColor : #744b3e;
+$secColor : #ffff ;
+
+
+header {
+  padding: 20px ;
+  background-color: rgba(128, 128, 128, 0.522);
+  color: $secColor;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  right: 0  ;
+  z-index: 110;
+} 
+.nav {
+  gap: 35px;
+
+  .links {
+    color: $secColor;
+    font-size: 18px;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+        color: #fdd60f;
+    }
+  }
+  .active {
+    color: #fdd60f;
+  }
+}
+
+.logo {
+  max-width: 100px;
+  img {
+    width: 100%;
+  }
+}
+
+
+
+

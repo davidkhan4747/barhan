@@ -1,0 +1,25 @@
+$bgcolor : #7c3f2d;
+$textColor : #fdd60f;
+
+.not-found-block {
+    background-color: $bgcolor;
+    height: 80vh;
+    text-align: center;
+    padding: 150px 0;
+    background-image: url('../../assets/restaurant-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        font-family: math;
+        font-size: 58px;
+        color: $textColor;
+    }
+
+    p {
+        color: $textColor;
+        padding: 20px 0;
+        font-size: 28px;
+    }
+}    
+

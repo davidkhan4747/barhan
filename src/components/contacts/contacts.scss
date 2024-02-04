@@ -1,0 +1,38 @@
+$bgColor : #7c3f2d;
+$titlesColor : #fdd60f ;
+* {
+    border: none;
+}
+.contacts-block {
+    padding: 50px 0;
+
+}
+
+.contacts-items {
+    // border: 1px solid $bgColor;
+    display: flex;
+    // justify-content: space-between;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 20px ;
+    margin: 20px 0  ;
+    h2 {
+        color: $titlesColor;
+        padding: 0 0 30px 0;
+        font-size: 47px;
+
+    }
+    .cont-text {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: $bgColor;
+        margin: 0 0 15px 0;
+        transition: 0.3s all ease-in-out;
+        &:hover {
+            color: #fdd60f;
+        }
+    }
+
+}
