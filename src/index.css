@@ -22,9 +22,10 @@ code {
 }
 a {
   text-decoration: none;
+  color: #fff;
 }
 
-ul {
+ul , li{
   list-style: none;
 }
 .wrap {
