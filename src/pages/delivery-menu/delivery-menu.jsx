@@ -14,10 +14,11 @@ const DeliveryMenu = () => {
     <BannerBlock title={' Меню доставки'} sub={'Доставим быстро'}/>
 
             <div className="wrap delivery"
-data-aos="fade-up"
-data-aos-duration="1500"
+
             >
-                <h2 className='title'> Меню доставки</h2>
+                <h2 className='title'
+                 
+                > Меню доставки</h2>
                 <ul className='cards_block'>
                     <li className='cards'>
                         <Link to={'/category/1'} className='menu' >
